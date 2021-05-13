@@ -24,6 +24,9 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
+li {
+  list-style-type: none;
+}
 
 /* Logo */
 .header-list-part-logo,
@@ -32,18 +35,20 @@ body {
 }
 .header-list-logo,
 .footer-list-logo {
+  text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   color: var(--primary-text-color);
 }
 
-.header-list-logo:focus .header-list-logo:hover {
+.header-list-logo:focus,
+.header-list-logo:hover {
   color: var(--accent-color);
 }
 
-.footer-list-.logo:focus,
-.footer-list-.logo:hover {
+.footer-list-logo:focus,
+.footer-list-logo:hover {
   color: var(--accent-color);
 }
 
@@ -120,6 +125,10 @@ body {
 /* Our Team */
 .footer-list-part-logo.right {
   color: var(--white-text-color);
+}
+.footer-list-part-logo.right:focus,
+.footer-list-part-logo.right:hover {
+  color: var(--accent-color);
 }
 
 .section {
