@@ -30,11 +30,10 @@ li {
 
 /* Logo */
 .header-list-part-logo,
-.footer-list-part-logo {
+.footer-logo-part {
   color: var(--accent-color);
 }
-.header-list-logo,
-.footer-list-logo {
+.header-list-logo {
   text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
@@ -47,8 +46,8 @@ li {
   color: var(--accent-color);
 }
 
-.footer-list-logo:focus,
-.footer-list-logo:hover {
+.footer-logo:focus,
+.footer-logo:hover {
   color: var(--accent-color);
 }
 
@@ -147,7 +146,7 @@ li {
 }
 
 /* Footer */
-.footer-list {
+.footer {
   background-color: var(--secondary-background-color);
 }
 
@@ -156,6 +155,7 @@ li {
   font-weight: bold;
   font-size: 26px;
   color: var(--white-text-color);
+  text-decoration: none;
 }
 .address-list-item {
   font-style: normal;
