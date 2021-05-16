@@ -29,7 +29,7 @@ li {
 }
 
 /* Logo */
-.header-list-part-logo,
+.header-list-logo-part,
 .footer-logo-part {
   color: var(--accent-color);
 }
